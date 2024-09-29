@@ -1,0 +1,30 @@
+/* Ensures the layout container is a flex container */
+.layout-container {
+    display: flex;
+    justify-content: flex-start; /* Aligns content to the left */
+    align-items: flex-start; /* Aligns content to the top */
+    padding: 20px; /* Optional: Adjust padding if needed */
+}
+
+/* Card styling */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 25%; /* Adjust width as needed */
+    border-radius: 10px;
+    background-color: lightblue;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Container inside the card */
+.container {
+    padding: 10px 20px;
+}
+
+/* Optional: To handle nav-links styling */
+.nav-links a {
+    color: #fff;
+}
